@@ -46,6 +46,10 @@
       color: var(--color-light);
       background-color: var(--color-dark-10);
       pointer-events: none;
+
+      @include tablet {
+        font-weight: 400;
+      }
     }
   }
 
