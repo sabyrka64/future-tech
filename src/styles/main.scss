@@ -1,9 +1,3 @@
 @use 'base';
 @use 'components';
 @use 'sections';
-
-.header,
-main > *:not(:last-child),
-.footer {
-  display: none !important;
-}
